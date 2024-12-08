@@ -1,0 +1,52 @@
+.Navbar {
+    width: 100vw;
+    height: 3rem;
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    color: black;
+    margin: 0 auto;
+
+    >div {
+        display: flex;
+        align-items: center;
+        >a{
+            outline:none;
+            border-color: red;
+            border-radius: 2px;
+            padding: 5px 10px;
+            color: black;
+            cursor: pointer;
+            border: none;
+        }
+    }
+
+    >section {
+        display: flex;
+        gap: 2rem;
+
+        >ul {
+            >a {
+                text-decoration: none;
+                color: black;
+            }
+
+        }
+    }
+
+    >div {
+        >button {
+            outline:none;
+            background-color: red;
+            border-color: red;
+            border-radius: 2px;
+            padding: 5px 10px;
+            color: white;
+            cursor: pointer;
+            border: none;
+            
+        }
+    }
+
+}
